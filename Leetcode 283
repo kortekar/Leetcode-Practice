@@ -1,0 +1,25 @@
+class Solution {
+    public void moveZeroes(int[] nums) {
+    int k = 0 ;
+    for(int i = 0;i<nums.length;i++){
+        if(nums[i] !=0){
+            nums[k] = nums[i];
+            k++;
+        }
+    }
+    for(int i=k;i<nums.length;i++){
+        nums[i]=0;
+    }
+  }
+}
+
+
+//Move Zeroes
+/*
+First Pass:
+The first loop iterates over the array and whenever a non-zero element is found, it is moved to the k index.
+k is then incremented to point to the next position for a potential non-zero element.
+
+Second Pass:
+After all non-zero elements have been moved to the front, the second loop fills the remaining positions in the array with zeros, starting from the k index.
+*/
