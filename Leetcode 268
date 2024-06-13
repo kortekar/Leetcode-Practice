@@ -8,4 +8,4 @@ class Solution {
         return sum - dif;
     }
 }
-//Missing number
+// Missing number
