@@ -6,4 +6,4 @@ class Solution {
         return nums;
     }
 }
-// Running sum of d array 
+// Running sum of 1d array 
