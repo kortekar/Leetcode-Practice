@@ -1,0 +1,11 @@
+class Solution {
+    public int sumOfUnique(int[] nums) {
+        int[] arr = new int[101];
+        for (int num : nums) arr[num]++;
+        int sum = 0;
+        for (int num : nums)
+            if (arr[num] == 1) sum+=num;
+        return sum;
+    }
+}
+// sum of unique element
