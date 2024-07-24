@@ -48,6 +48,35 @@ This document provides a quick reference to various problem-solving patterns bas
 - **Map**
 - **Trie**
 
+
+
+
+## Topics
+
+1. DFS
+2. Dynamic Programming
+3. Backtracking
+4. Heap
+5. Two Pointers
+6. Binary Search
+7. Arrays
+8. Sliding Window
+9. Fast & Slow Pointers
+10. BFS
+11. Greedy
+12. In-place Reversal of a Linked List
+13. Intervals
+14. Trie
+15. Graph
+16. Bit Manipulation
+17. Topological Sort
+18. Union Find
+19. Design
+20. Sorting
+21. QuickSelect
+22. Bucket Sort
+
+
 ## General Recommendations
 
 - **Map/Set for O(1) Time & O(n) Space**
